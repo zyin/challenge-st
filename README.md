@@ -2,7 +2,8 @@
 
 * uv is installed - recommended
   * uv sync
-  * uv run main.py
+  * uv run pytest -s
 
 * uv is not installed, python3 must be installed
-python3 main.py
+  * pip install pytest
+  * python3 main.py
